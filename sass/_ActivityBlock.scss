@@ -1,0 +1,44 @@
+#activity {
+    h1 {
+        background: white;
+        width: 20%;
+        padding: 2%;
+    }
+    .column {
+        color: white;
+        padding: 3% 5%;
+    }
+    .row {
+        border-bottom: 1px solid #efefef;
+        margin: 0;
+        padding: 0;
+    }
+    .row:last-child {
+        border-bottom: 0px;
+    }
+    .title {
+        margin: 0 2% 5% 0;
+        text-align: left;
+        color: ghostwhite;
+        font-size: 2em;
+    }
+    .description {
+        text-align: left;
+        color: hsl(0, 0%, 83%);
+        font-size: 1.4em;
+        line-height: 1.6em;
+    }
+    .content {
+        width: 85%;
+        text-align: center;
+    }
+    .left {
+        border-right: 7px solid #ffffff;
+    }
+    .right {
+        border-left: 7px solid #ffffff;
+    }
+    .center {
+        margin: 0px auto;
+    }
+}
