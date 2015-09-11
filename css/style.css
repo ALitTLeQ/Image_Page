@@ -154,6 +154,49 @@ section h1, section h2 {
   padding-top: 5%;
 }
 
+#activity h1 {
+  background: white;
+  width: 20%;
+  padding: 2%;
+}
+#activity .column {
+  color: white;
+  padding: 3% 5%;
+}
+#activity .row {
+  border-bottom: 1px solid #efefef;
+  margin: 0;
+  padding: 0;
+}
+#activity .row:last-child {
+  border-bottom: 0px;
+}
+#activity .title {
+  margin: 0 2% 5% 0;
+  text-align: left;
+  color: ghostwhite;
+  font-size: 2em;
+}
+#activity .description {
+  text-align: left;
+  color: #d4d4d4;
+  font-size: 1.4em;
+  line-height: 1.6em;
+}
+#activity .content {
+  width: 85%;
+  text-align: center;
+}
+#activity .left {
+  border-right: 7px solid #ffffff;
+}
+#activity .right {
+  border-left: 7px solid #ffffff;
+}
+#activity .center {
+  margin: 0px auto;
+}
+
 #collections .card {
   background: #fff;
 }
